@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		A90E477429DDCA1B00F4C45A /* DubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E477329DDCA1B00F4C45A /* DubDubGrubApp.swift */; };
-		A90E477629DDCA1B00F4C45A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E477529DDCA1B00F4C45A /* ContentView.swift */; };
 		A90E477829DDCA1C00F4C45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90E477729DDCA1C00F4C45A /* Assets.xcassets */; };
 		A90E477B29DDCA1C00F4C45A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90E477A29DDCA1C00F4C45A /* Preview Assets.xcassets */; };
+		A90E478329DDCEAC00F4C45A /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478229DDCEAC00F4C45A /* Color+Ext.swift */; };
+		A90E478529DDCF4100F4C45A /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478429DDCF4100F4C45A /* AppTabView.swift */; };
+		A90E478729DDCF8B00F4C45A /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478629DDCF8B00F4C45A /* LocationMapView.swift */; };
+		A90E478929DDCFBD00F4C45A /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478829DDCFBC00F4C45A /* LocationListView.swift */; };
+		A90E478B29DDCFDD00F4C45A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478A29DDCFDD00F4C45A /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A90E477029DDCA1B00F4C45A /* DubDubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90E477329DDCA1B00F4C45A /* DubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubGrubApp.swift; sourceTree = "<group>"; };
-		A90E477529DDCA1B00F4C45A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A90E477729DDCA1C00F4C45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A90E477A29DDCA1C00F4C45A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A90E478129DDCBDD00F4C45A /* DubDubGrub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DubDubGrub.entitlements; sourceTree = "<group>"; };
+		A90E478229DDCEAC00F4C45A /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		A90E478429DDCF4100F4C45A /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		A90E478629DDCF8B00F4C45A /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		A90E478829DDCFBC00F4C45A /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		A90E478A29DDCFDD00F4C45A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +60,15 @@
 		A90E477229DDCA1B00F4C45A /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				A90E478129DDCBDD00F4C45A /* DubDubGrub.entitlements */,
 				A90E477329DDCA1B00F4C45A /* DubDubGrubApp.swift */,
-				A90E477529DDCA1B00F4C45A /* ContentView.swift */,
 				A90E477729DDCA1C00F4C45A /* Assets.xcassets */,
 				A90E477929DDCA1C00F4C45A /* Preview Content */,
+				A90E478229DDCEAC00F4C45A /* Color+Ext.swift */,
+				A90E478429DDCF4100F4C45A /* AppTabView.swift */,
+				A90E478629DDCF8B00F4C45A /* LocationMapView.swift */,
+				A90E478829DDCFBC00F4C45A /* LocationListView.swift */,
+				A90E478A29DDCFDD00F4C45A /* ProfileView.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90E477629DDCA1B00F4C45A /* ContentView.swift in Sources */,
 				A90E477429DDCA1B00F4C45A /* DubDubGrubApp.swift in Sources */,
+				A90E478729DDCF8B00F4C45A /* LocationMapView.swift in Sources */,
+				A90E478929DDCFBD00F4C45A /* LocationListView.swift in Sources */,
+				A90E478529DDCF4100F4C45A /* AppTabView.swift in Sources */,
+				A90E478B29DDCFDD00F4C45A /* ProfileView.swift in Sources */,
+				A90E478329DDCEAC00F4C45A /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DubDubGrub/DubDubGrub.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DubDubGrub/Preview Content\"";
@@ -293,6 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DubDubGrub/DubDubGrub.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DubDubGrub/Preview Content\"";
