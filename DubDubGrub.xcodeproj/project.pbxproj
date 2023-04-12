@@ -15,6 +15,7 @@
 		A90E478729DDCF8B00F4C45A /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478629DDCF8B00F4C45A /* LocationMapView.swift */; };
 		A90E478929DDCFBD00F4C45A /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478829DDCFBC00F4C45A /* LocationListView.swift */; };
 		A90E478B29DDCFDD00F4C45A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478A29DDCFDD00F4C45A /* ProfileView.swift */; };
+		A947039529E6FD1B00C69D10 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947039429E6FD1B00C69D10 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A90E478629DDCF8B00F4C45A /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
 		A90E478829DDCFBC00F4C45A /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		A90E478A29DDCFDD00F4C45A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A947039429E6FD1B00C69D10 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				A90E478629DDCF8B00F4C45A /* LocationMapView.swift */,
 				A90E478829DDCFBC00F4C45A /* LocationListView.swift */,
 				A90E478A29DDCFDD00F4C45A /* ProfileView.swift */,
+				A947039429E6FD1B00C69D10 /* LocationDetailView.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				A90E477429DDCA1B00F4C45A /* DubDubGrubApp.swift in Sources */,
 				A90E478729DDCF8B00F4C45A /* LocationMapView.swift in Sources */,
 				A90E478929DDCFBD00F4C45A /* LocationListView.swift in Sources */,
+				A947039529E6FD1B00C69D10 /* LocationDetailView.swift in Sources */,
 				A90E478529DDCF4100F4C45A /* AppTabView.swift in Sources */,
 				A90E478B29DDCFDD00F4C45A /* ProfileView.swift in Sources */,
 				A90E478329DDCEAC00F4C45A /* Color+Ext.swift in Sources */,
