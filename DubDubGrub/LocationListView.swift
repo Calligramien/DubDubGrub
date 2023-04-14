@@ -36,7 +36,6 @@ struct AvatarView: View {
 }
 
 struct LocationCell: View {
-    
     var body: some View {
         HStack {
             Image("default-square-asset")
