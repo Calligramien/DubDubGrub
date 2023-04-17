@@ -20,10 +20,12 @@ struct AppTabView: View {
                     Label("Location", systemImage: "building")
                 }
             
-            ProfileView()
-                .tabItem {
-                    Label("Profile", systemImage: "person")
-                }
+            NavigationView {
+                ProfileView()
+            }
+            .tabItem {
+                Label("Profile", systemImage: "person")
+            }
         }
         .tint(.brandPrimary)
     }
