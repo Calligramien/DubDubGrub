@@ -22,6 +22,8 @@
 		A92C043E29EDA75700D5842F /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C043D29EDA75700D5842F /* DDGButton.swift */; };
 		A947039529E6FD1B00C69D10 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947039429E6FD1B00C69D10 /* LocationDetailView.swift */; };
 		A9B8092029EEE112007237C3 /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8091F29EEE112007237C3 /* DDGLocation.swift */; };
+		A9B8092229EEE9A5007237C3 /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8092129EEE9A5007237C3 /* DDGProfile.swift */; };
+		A9B8092429EEEC14007237C3 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8092329EEEC14007237C3 /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		A92C043D29EDA75700D5842F /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
 		A947039429E6FD1B00C69D10 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		A9B8091F29EEE112007237C3 /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
+		A9B8092129EEE9A5007237C3 /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
+		A9B8092329EEEC14007237C3 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +78,9 @@
 		A90E477229DDCA1B00F4C45A /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
-				A9B8091E29EEE0FF007237C3 /* Model */,
 				A90E478129DDCBDD00F4C45A /* DubDubGrub.entitlements */,
 				A90E477329DDCA1B00F4C45A /* DubDubGrubApp.swift */,
+				A9B8091E29EEE0FF007237C3 /* Model */,
 				A92C043F29EDBC0500D5842F /* Extensions */,
 				A92C044029EDBC2A00D5842F /* Views */,
 				A90E477729DDCA1C00F4C45A /* Assets.xcassets */,
@@ -146,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				A9B8091F29EEE112007237C3 /* DDGLocation.swift */,
+				A9B8092129EEE9A5007237C3 /* DDGProfile.swift */,
+				A9B8092329EEEC14007237C3 /* MockData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -224,7 +230,9 @@
 				A92C043A29EDA5F800D5842F /* CustomModifiers.swift in Sources */,
 				A90E478729DDCF8B00F4C45A /* LocationMapView.swift in Sources */,
 				A90E478929DDCFBD00F4C45A /* LocationListView.swift in Sources */,
+				A9B8092429EEEC14007237C3 /* MockData.swift in Sources */,
 				A947039529E6FD1B00C69D10 /* LocationDetailView.swift in Sources */,
+				A9B8092229EEE9A5007237C3 /* DDGProfile.swift in Sources */,
 				A9B8092029EEE112007237C3 /* DDGLocation.swift in Sources */,
 				A90E478529DDCF4100F4C45A /* AppTabView.swift in Sources */,
 				A90E478B29DDCFDD00F4C45A /* ProfileView.swift in Sources */,
