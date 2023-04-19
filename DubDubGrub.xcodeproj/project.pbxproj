@@ -23,6 +23,7 @@
 		A9315E0C29F026DA00A2F870 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9315E0B29F026DA00A2F870 /* CloudKitManager.swift */; };
 		A9315E0E29F0280300A2F870 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9315E0D29F0280300A2F870 /* Constants.swift */; };
 		A9315E1029F0352C00A2F870 /* CKRecord+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9315E0F29F0352C00A2F870 /* CKRecord+Ext.swift */; };
+		A9315E1229F0375B00A2F870 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9315E1129F0375B00A2F870 /* AlertItem.swift */; };
 		A947039529E6FD1B00C69D10 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947039429E6FD1B00C69D10 /* LocationDetailView.swift */; };
 		A9B8092029EEE112007237C3 /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8091F29EEE112007237C3 /* DDGLocation.swift */; };
 		A9B8092229EEE9A5007237C3 /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8092129EEE9A5007237C3 /* DDGProfile.swift */; };
@@ -48,6 +49,7 @@
 		A9315E0B29F026DA00A2F870 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 		A9315E0D29F0280300A2F870 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A9315E0F29F0352C00A2F870 /* CKRecord+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKRecord+Ext.swift"; sourceTree = "<group>"; };
+		A9315E1129F0375B00A2F870 /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 		A947039429E6FD1B00C69D10 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		A9B8091F29EEE112007237C3 /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		A9B8092129EEE9A5007237C3 /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				A92C043F29EDBC0500D5842F /* Extensions */,
 				A9315E0B29F026DA00A2F870 /* CloudKitManager.swift */,
 				A9315E0D29F0280300A2F870 /* Constants.swift */,
+				A9315E1129F0375B00A2F870 /* AlertItem.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				A90E478529DDCF4100F4C45A /* AppTabView.swift in Sources */,
 				A90E478B29DDCFDD00F4C45A /* ProfileView.swift in Sources */,
 				A9315E0C29F026DA00A2F870 /* CloudKitManager.swift in Sources */,
+				A9315E1229F0375B00A2F870 /* AlertItem.swift in Sources */,
 				A92C043C29EDA63D00D5842F /* View+Ext.swift in Sources */,
 				A92C043629EDA21000D5842F /* LocationCell.swift in Sources */,
 				A9315E1029F0352C00A2F870 /* CKRecord+Ext.swift in Sources */,
