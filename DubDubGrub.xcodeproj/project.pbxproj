@@ -15,6 +15,7 @@
 		A90E478729DDCF8B00F4C45A /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478629DDCF8B00F4C45A /* LocationMapView.swift */; };
 		A90E478929DDCFBD00F4C45A /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478829DDCFBC00F4C45A /* LocationListView.swift */; };
 		A90E478B29DDCFDD00F4C45A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E478A29DDCFDD00F4C45A /* ProfileView.swift */; };
+		A916D6E829F17FA000F5760F /* CKAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A916D6E729F17FA000F5760F /* CKAsset+Ext.swift */; };
 		A92C043629EDA21000D5842F /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C043529EDA21000D5842F /* LocationCell.swift */; };
 		A92C043829EDA26D00D5842F /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C043729EDA26D00D5842F /* AvatarView.swift */; };
 		A92C043A29EDA5F800D5842F /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C043929EDA5F800D5842F /* CustomModifiers.swift */; };
@@ -43,6 +44,7 @@
 		A90E478629DDCF8B00F4C45A /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
 		A90E478829DDCFBC00F4C45A /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		A90E478A29DDCFDD00F4C45A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A916D6E729F17FA000F5760F /* CKAsset+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+Ext.swift"; sourceTree = "<group>"; };
 		A92C043529EDA21000D5842F /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		A92C043729EDA26D00D5842F /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		A92C043929EDA5F800D5842F /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				A90E478229DDCEAC00F4C45A /* Color+Ext.swift */,
 				A92C043B29EDA63D00D5842F /* View+Ext.swift */,
 				A9315E0F29F0352C00A2F870 /* CKRecord+Ext.swift */,
+				A916D6E729F17FA000F5760F /* CKAsset+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				A92C043629EDA21000D5842F /* LocationCell.swift in Sources */,
 				A9315E1029F0352C00A2F870 /* CKRecord+Ext.swift in Sources */,
 				A9315E1929F0427500A2F870 /* LocationManager.swift in Sources */,
+				A916D6E829F17FA000F5760F /* CKAsset+Ext.swift in Sources */,
 				A92C043E29EDA75700D5842F /* DDGButton.swift in Sources */,
 				A92C043829EDA26D00D5842F /* AvatarView.swift in Sources */,
 				A90E478329DDCEAC00F4C45A /* Color+Ext.swift in Sources */,
