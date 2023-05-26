@@ -28,6 +28,9 @@
 		A9315E1529F03C6F00A2F870 /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9315E1429F03C6F00A2F870 /* LocationMapViewModel.swift */; };
 		A9315E1929F0427500A2F870 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9315E1829F0427500A2F870 /* LocationManager.swift */; };
 		A947039529E6FD1B00C69D10 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947039429E6FD1B00C69D10 /* LocationDetailView.swift */; };
+		A9933D1A2A21009200C395DB /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9933D192A21009200C395DB /* OnboardView.swift */; };
+		A9933D1C2A21010600C395DB /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9933D1B2A21010600C395DB /* LogoView.swift */; };
+		A9933D1F2A21074900C395DB /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9933D1E2A21074900C395DB /* XDismissButton.swift */; };
 		A9B8092029EEE112007237C3 /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8091F29EEE112007237C3 /* DDGLocation.swift */; };
 		A9B8092229EEE9A5007237C3 /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8092129EEE9A5007237C3 /* DDGProfile.swift */; };
 		A9B8092429EEEC14007237C3 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8092329EEEC14007237C3 /* MockData.swift */; };
@@ -57,6 +60,9 @@
 		A9315E1429F03C6F00A2F870 /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 		A9315E1829F0427500A2F870 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		A947039429E6FD1B00C69D10 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		A9933D192A21009200C395DB /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		A9933D1B2A21010600C395DB /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		A9933D1E2A21074900C395DB /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		A9B8091F29EEE112007237C3 /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		A9B8092129EEE9A5007237C3 /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 		A9B8092329EEEC14007237C3 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -142,6 +148,7 @@
 				A90E478829DDCFBC00F4C45A /* LocationListView.swift */,
 				A947039429E6FD1B00C69D10 /* LocationDetailView.swift */,
 				A90E478A29DDCFDD00F4C45A /* ProfileView.swift */,
+				A9933D192A21009200C395DB /* OnboardView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -157,8 +164,9 @@
 		A92C044429EDBCA200D5842F /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				A9933D1D2A21073A00C395DB /* Buttons */,
 				A92C043729EDA26D00D5842F /* AvatarView.swift */,
-				A92C043D29EDA75700D5842F /* DDGButton.swift */,
+				A9933D1B2A21010600C395DB /* LogoView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -189,6 +197,15 @@
 				A9315E0B29F026DA00A2F870 /* CloudKitManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		A9933D1D2A21073A00C395DB /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A9933D1E2A21074900C395DB /* XDismissButton.swift */,
+				A92C043D29EDA75700D5842F /* DDGButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		A9B8091E29EEE0FF007237C3 /* Model */ = {
@@ -284,12 +301,15 @@
 				A90E478529DDCF4100F4C45A /* AppTabView.swift in Sources */,
 				A90E478B29DDCFDD00F4C45A /* ProfileView.swift in Sources */,
 				A9315E0C29F026DA00A2F870 /* CloudKitManager.swift in Sources */,
+				A9933D1C2A21010600C395DB /* LogoView.swift in Sources */,
+				A9933D1F2A21074900C395DB /* XDismissButton.swift in Sources */,
 				A9315E1229F0375B00A2F870 /* AlertItem.swift in Sources */,
 				A92C043C29EDA63D00D5842F /* View+Ext.swift in Sources */,
 				A92C043629EDA21000D5842F /* LocationCell.swift in Sources */,
 				A9315E1029F0352C00A2F870 /* CKRecord+Ext.swift in Sources */,
 				A9315E1929F0427500A2F870 /* LocationManager.swift in Sources */,
 				A916D6E829F17FA000F5760F /* CKAsset+Ext.swift in Sources */,
+				A9933D1A2A21009200C395DB /* OnboardView.swift in Sources */,
 				A92C043E29EDA75700D5842F /* DDGButton.swift in Sources */,
 				A92C043829EDA26D00D5842F /* AvatarView.swift in Sources */,
 				A90E478329DDCEAC00F4C45A /* Color+Ext.swift in Sources */,
